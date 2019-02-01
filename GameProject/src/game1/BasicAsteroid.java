@@ -22,6 +22,7 @@ public class BasicAsteroid {
     }
 
     public static BasicAsteroid makeRandomAsteroid(){
+        //Change the range to [-100,100] for x,y
         return (new BasicAsteroid(Math.random() *(FRAME_WIDTH + 1),
                 Math.random() *(FRAME_HEIGHT + 1),Math.random() *(MAX_SPEED + 1),Math.random() *(MAX_SPEED + 1)));
     }

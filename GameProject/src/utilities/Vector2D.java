@@ -38,7 +38,13 @@ public final class Vector2D {
     // compare for equality (note Object type argument)
     public boolean equals(Object o) {
         if(o instanceof Vector2D){
-            return true;
+            Vector2D objVec = (Vector2D) o;
+            if(this.x == objVec.x && this.y == objVec.y){
+                return true;
+            }
+            else{
+                return false;
+            }
         }
         else{
             return false;
@@ -123,8 +129,9 @@ public final class Vector2D {
 
     // rotate by angle given in radians
     public Vector2D rotate(double angle) {
-        this.x = (x*Math.cos(angle)) - (y*Math.sin(angle));
-        this.y = (x*Math.sin(angle)) + (y * Math.cos(angle));
+
+        this.x = this.x * Math.cos(angle) - this.y * Math.sin(angle);
+        this.y = this.x * Math.sin(angle) + this.y * Math.cos(angle);
         return this;
     }
 
@@ -150,14 +157,26 @@ public final class Vector2D {
     // wrap-around operation, assumes w> 0 and h>0
 // remember to manage negative values of the coordinates
     public Vector2D wrap(double w, double h) {
-        this.x -= w;
-        this.y -= h;
+        if(this.x > w){
+            this.x = 0;
+        }
+        else if(this.x < 0){
+            this.x = w;
+        }
+        else if(this.y < 0){
+            this.y = h;
+        }
+        else if(this.y >h){
+            this.y = 0;
+        }
         return this;
     }
 
-//    // construct vector with given polar coordinates
-//    public static Vector2D polar(double angle, double mag) {
-//        return this;
-//    }
+    // construct vector with given polar coordinates
+    public static Vector2D polar(double angle, double mag) {
+        double x = mag * Math.cos(angle);
+        double y = mag * Math.sin(angle);
+        return new Vector2D(x,y);
+    }
 
 }

@@ -173,8 +173,15 @@ public class TestVector2D {
     @Test
     public void testRotate() {
         Vector2D z = v.rotate(RADIUS);
+
+
         double x = vx * Math.cos(RADIUS) - vy * Math.sin(RADIUS);
         double y = vx * Math.sin(RADIUS) + vy * Math.cos(RADIUS);
+
+        System.out.println("THis is V: " +  v);
+        //System.out.println(z);
+        System.out.println("New OBJ: " + new Vector2D(x,y));
+
         approxEquals(v, new Vector2D(x, y));
         assertSame(z, v);
     }
@@ -202,29 +209,29 @@ public class TestVector2D {
         approxEquals(v.y, vy / len);
         assertSame(z, v);
     }
-//
-//    @Test
-//    public void testWrap() {
-//        for (int i : new int[] { -1, 0, 1 }) {
-//            for (int j : new int[] { -1, 0, 1 }) {
-//                double dx = Math.random();
-//                double dy = Math.random();
-//                v.set((i + dx) * WIDTH, (j + dy) * HEIGHT);
-//                w.set(dx * WIDTH, dy * HEIGHT);
-//                Vector2D z = v.wrap(WIDTH, HEIGHT);
-//                approxEquals(v, w);
-//                assertSame(z, v);
-//            }
-//        }
-//    }
 
-//    @Test
-//    public void testPolar() {
-//        Vector2D vCopy = new Vector2D(Vector2D.polar(Math.atan2(vy, vx), Math.hypot(vx, vy)));
-//        Vector2D wCopy = new Vector2D(Vector2D.polar(Math.atan2(wy, wx), Math.hypot(wx, wy)));
-//        approxEquals(vCopy, v);
-//        approxEquals(wCopy, w);
-//
-//    }
+    @Test
+    public void testWrap() {
+        for (int i : new int[] { -1, 0, 1 }) {
+            for (int j : new int[] { -1, 0, 1 }) {
+                double dx = Math.random();
+                double dy = Math.random();
+                v.set((i + dx) * WIDTH, (j + dy) * HEIGHT);
+                w.set(dx * WIDTH, dy * HEIGHT);
+                Vector2D z = v.wrap(WIDTH, HEIGHT);
+                approxEquals(v, w);
+                assertSame(z, v);
+            }
+        }
+    }
+
+    @Test
+    public void testPolar() {
+        Vector2D vCopy = new Vector2D(Vector2D.polar(Math.atan2(vy, vx), Math.hypot(vx, vy)));
+        Vector2D wCopy = new Vector2D(Vector2D.polar(Math.atan2(wy, wx), Math.hypot(wx, wy)));
+        approxEquals(vCopy, v);
+        approxEquals(wCopy, w);
+
+    }
 
 }
