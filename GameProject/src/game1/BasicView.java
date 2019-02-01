@@ -4,6 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 
 import static game1.BasicGame.asteroids;
+import static game1.BasicGame.ship;
 
 
 public class BasicView extends JComponent {
@@ -20,9 +21,12 @@ public class BasicView extends JComponent {
         Graphics2D g = (Graphics2D) g0;
         g.setColor(BG_COLOR);
         g.fillRect(0,0,getWidth(),getHeight());
+        ship.draw(g);
         for(BasicAsteroid a: asteroids){
             a.draw(g);
         }
+
+
     }
      @Override
     public Dimension getPreferredSize(){

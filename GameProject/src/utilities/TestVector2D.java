@@ -173,15 +173,8 @@ public class TestVector2D {
     @Test
     public void testRotate() {
         Vector2D z = v.rotate(RADIUS);
-
-
         double x = vx * Math.cos(RADIUS) - vy * Math.sin(RADIUS);
         double y = vx * Math.sin(RADIUS) + vy * Math.cos(RADIUS);
-
-        System.out.println("THis is V: " +  v);
-        //System.out.println(z);
-        System.out.println("New OBJ: " + new Vector2D(x,y));
-
         approxEquals(v, new Vector2D(x, y));
         assertSame(z, v);
     }
@@ -219,6 +212,8 @@ public class TestVector2D {
                 v.set((i + dx) * WIDTH, (j + dy) * HEIGHT);
                 w.set(dx * WIDTH, dy * HEIGHT);
                 Vector2D z = v.wrap(WIDTH, HEIGHT);
+                System.out.println(v);
+                System.out.println(w);
                 approxEquals(v, w);
                 assertSame(z, v);
             }

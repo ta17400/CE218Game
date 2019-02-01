@@ -5,8 +5,8 @@ public final class Vector2D {
 
     // constructor for zero vector
     public Vector2D() {
-        this.x = 0;
-        this.y = 0;
+        this.x = 1;
+        this.y = 1;
     }
 
     // constructor for vector with given coordinates
@@ -129,9 +129,9 @@ public final class Vector2D {
 
     // rotate by angle given in radians
     public Vector2D rotate(double angle) {
-
-        this.x = this.x * Math.cos(angle) - this.y * Math.sin(angle);
-        this.y = this.x * Math.sin(angle) + this.y * Math.cos(angle);
+        double newX = (this.x * Math.cos(angle)) - (this.y * Math.sin(angle));
+        this.y = (this.x * Math.sin(angle)) + (this.y * Math.cos(angle));
+        this.x = newX;
         return this;
     }
 
@@ -157,19 +157,22 @@ public final class Vector2D {
     // wrap-around operation, assumes w> 0 and h>0
 // remember to manage negative values of the coordinates
     public Vector2D wrap(double w, double h) {
+
         if(this.x > w){
-            this.x = 0;
+            this.x -= w;
         }
         else if(this.x < 0){
-            this.x = w;
+           this.x += w;
         }
-        else if(this.y < 0){
-            this.y = h;
+
+        if(this.y > h){
+            this.y -=h ;
         }
-        else if(this.y >h){
-            this.y = 0;
+        else if (this.y < 0){
+            this.y += h;
         }
         return this;
+
     }
 
     // construct vector with given polar coordinates
