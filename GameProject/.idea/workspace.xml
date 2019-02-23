@@ -4,7 +4,6 @@
     <list default="true" id="85cd2829-8b86-4536-8377-2dc3cf390823" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,51 +13,55 @@
     <session id="864231954">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="30" />
+          <entry key="project.open.time.1" value="5" />
+          <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.17" value="1" />
-          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.16" value="2" />
+          <entry key="project.open.time.17" value="4" />
+          <entry key="project.open.time.18" value="2" />
           <entry key="project.open.time.21" value="2" />
-          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.6" value="6" />
+          <entry key="project.open.time.7" value="4" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="java" value="10" />
+          <entry key="java" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="10" />
+          <entry key="JAVA" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4895" />
+          <entry key="java" value="8559" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4895" />
+          <entry key="JAVA" value="8559" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.29417294">
+    <splitter split-orientation="horizontal" split-proportion="0.40234604">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="BasicView.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/game1/BasicView.java">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/game1/Bullet.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+                <state relative-caret-position="374">
+                  <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -66,54 +69,65 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="BasicGame.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/game1/BasicGame.java">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/game1/Ship.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="510">
-                  <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+                <state relative-caret-position="289">
+                  <caret line="81" column="28" lean-forward="true" selection-start-line="81" selection-start-column="28" selection-end-line="81" selection-end-column="28" />
                   <folding>
-                    <element signature="imports" expanded="true" />
+                    <element signature="e#2137#2138#0" expanded="true" />
+                    <element signature="e#2172#2173#0" expanded="true" />
+                    <element signature="e#2198#2199#0" expanded="true" />
+                    <element signature="e#2225#2226#0" expanded="true" />
+                    <element signature="e#2475#2476#0" expanded="true" />
+                    <element signature="e#2505#2506#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Action.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/utilities/Action.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="51">
-                  <caret line="3" column="41" lean-forward="true" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="BasicController.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/utilities/BasicController.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Constants.java" pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/game1/Constants.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="12" selection-start-line="12" selection-end-line="12" />
+                <state relative-caret-position="136">
+                  <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="TestVector2D.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/utilities/TestVector2D.java">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/game1/Game.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="213">
-                  <caret line="216" selection-start-line="216" selection-end-line="216" />
+                <state relative-caret-position="26">
+                  <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#1115#1116#0" expanded="true" />
-                    <element signature="e#1164#1165#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/game1/View.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="357">
+                  <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/game1/GameObject.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="459">
+                  <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#533#534#0" expanded="true" />
+                    <element signature="e#565#566#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -122,48 +136,21 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
-          <file leaf-file-name="BasicAsteroid.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/game1/BasicAsteroid.java">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/game1/Asteroid.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="414">
-                  <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
+                <state relative-caret-position="613">
+                  <caret line="72" column="22" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="BasicKeys.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/utilities/BasicKeys.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="731">
-                  <caret line="45" column="11" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="BasicShip.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/game1/BasicShip.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="196">
-                  <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Vector2D.java" pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/utilities/Vector2D.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="340">
-                  <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+                <state relative-caret-position="1292">
+                  <caret line="82" selection-start-line="82" selection-end-line="82" />
                 </state>
               </provider>
             </entry>
@@ -184,7 +171,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/utilities/JEasyFrame.java" />
         <option value="$PROJECT_DIR$/src/utilities/BasicView.java" />
-        <option value="$PROJECT_DIR$/src/game1/Constants.java" />
         <option value="$PROJECT_DIR$/src/utilities/TestVector2D.java" />
         <option value="$PROJECT_DIR$/src/utilities/HelloKey.java" />
         <option value="$PROJECT_DIR$/src/utilities/Action.java" />
@@ -194,7 +180,17 @@
         <option value="$PROJECT_DIR$/src/game1/BasicGame.java" />
         <option value="$PROJECT_DIR$/src/game1/BasicAsteroid.java" />
         <option value="$PROJECT_DIR$/src/game1/BasicView.java" />
+        <option value="$PROJECT_DIR$/src/game2/BasicShip.java" />
+        <option value="$PROJECT_DIR$/src/game2/utilities/BasicController.java" />
         <option value="$PROJECT_DIR$/src/game1/BasicShip.java" />
+        <option value="$PROJECT_DIR$/src/game1/Constants.java" />
+        <option value="$PROJECT_DIR$/src/utilities/Keys.java" />
+        <option value="$PROJECT_DIR$/src/game1/View.java" />
+        <option value="$PROJECT_DIR$/src/game1/Bullet.java" />
+        <option value="$PROJECT_DIR$/src/game1/Asteroid.java" />
+        <option value="$PROJECT_DIR$/src/game1/GameObject.java" />
+        <option value="$PROJECT_DIR$/src/game1/Game.java" />
+        <option value="$PROJECT_DIR$/src/game1/Ship.java" />
       </list>
     </option>
   </component>
@@ -204,14 +200,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="728" />
-    <option name="y" value="-11" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="x" value="28" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -219,7 +212,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -248,7 +240,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -257,10 +249,15 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549023748404" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550949327328" />
+    <property name="last_opened_file_path" value="D:/BrickBreaker" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="M:\GitHub\CE218Game\GameProject\src\game2" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -274,9 +271,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BasicGame">
-    <configuration name="BasicGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="game1.BasicGame" />
+  <component name="RunManager" selected="Application.Game">
+    <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="game1.Game" />
       <module name="GameProject" />
       <extension name="coverage">
         <pattern>
@@ -284,6 +281,9 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="TestVector2D" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GameProject" />
@@ -293,20 +293,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="utilities" />
       <option name="MAIN_CLASS_NAME" value="utilities.TestVector2D" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="TestVector2D.testPolar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GameProject" />
@@ -316,20 +309,15 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="utilities" />
       <option name="MAIN_CLASS_NAME" value="utilities.TestVector2D" />
       <option name="METHOD_NAME" value="testPolar" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="TestVector2D.testRotate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GameProject" />
@@ -339,20 +327,15 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="utilities" />
       <option name="MAIN_CLASS_NAME" value="utilities.TestVector2D" />
       <option name="METHOD_NAME" value="testRotate" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="TestVector2D.testWrap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GameProject" />
@@ -362,23 +345,18 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="utilities" />
       <option name="MAIN_CLASS_NAME" value="utilities.TestVector2D" />
       <option name="METHOD_NAME" value="testWrap" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BasicGame" />
+      <item itemvalue="Application.Game" />
       <item itemvalue="JUnit.TestVector2D" />
       <item itemvalue="JUnit.TestVector2D.testWrap" />
       <item itemvalue="JUnit.TestVector2D.testRotate" />
@@ -386,7 +364,7 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BasicGame" />
+        <item itemvalue="Application.Game" />
         <item itemvalue="JUnit.TestVector2D" />
         <item itemvalue="JUnit.TestVector2D.testWrap" />
         <item itemvalue="JUnit.TestVector2D.testRotate" />
@@ -415,6 +393,30 @@
       <workItem from="1548947941303" duration="1323000" />
       <workItem from="1549018830468" duration="4772000" />
       <workItem from="1549026587231" duration="8474000" />
+      <workItem from="1549631200915" duration="7477000" />
+      <workItem from="1549638916333" duration="131000" />
+      <workItem from="1550229418130" duration="8390000" />
+      <workItem from="1550242103244" duration="5862000" />
+      <workItem from="1550253911164" duration="13000" />
+      <workItem from="1550271331881" duration="31000" />
+      <workItem from="1550271848918" duration="42000" />
+      <workItem from="1550329008510" duration="722000" />
+      <workItem from="1550337151396" duration="31000" />
+      <workItem from="1550337726408" duration="193000" />
+      <workItem from="1550497938051" duration="16000" />
+      <workItem from="1550502211412" duration="538000" />
+      <workItem from="1550502770045" duration="652000" />
+      <workItem from="1550521205031" duration="35000" />
+      <workItem from="1550580610664" duration="67000" />
+      <workItem from="1550584074090" duration="5000" />
+      <workItem from="1550589819669" duration="48000" />
+      <workItem from="1550661274412" duration="60000" />
+      <workItem from="1550850843872" duration="24000" />
+      <workItem from="1550917798771" duration="1093000" />
+      <workItem from="1550924416867" duration="9062000" />
+      <workItem from="1550935073179" duration="1445000" />
+      <workItem from="1550940275452" duration="3169000" />
+      <workItem from="1550945299554" duration="1498000" />
     </task>
     <servers />
   </component>
@@ -451,70 +453,41 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27000000" />
+    <option name="totallyTimeSpent" value="67604000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32925472" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32518598" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0078125" />
-      <window_info anchor="right" id="Database" order="7" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09328358" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19911012" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32814237" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33154505" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14788732" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32925472" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -522,92 +495,23 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="1" />
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/utilities/JEasyFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/game1/BasicView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/game1/BasicGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/game1/BasicAsteroid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/game1/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utilities/Vector2D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2720">
-          <caret line="170" column="9" lean-forward="true" selection-start-line="170" selection-start-column="9" selection-end-line="170" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utilities/TestVector2D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3009">
-          <caret line="185" column="25" lean-forward="true" selection-start-line="185" selection-start-column="25" selection-end-line="185" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1115#1116#0" expanded="true" />
-            <element signature="e#1164#1165#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utilities/JEasyFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class" />
+    <entry file="file://$PROJECT_DIR$/src/utilities/HelloKey.java" />
+    <entry file="file://$PROJECT_DIR$/GameProject.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game2/BasicGame.java" />
+    <entry file="file://$PROJECT_DIR$/src/game2/BasicAsteroid.java" />
+    <entry file="file://$PROJECT_DIR$/src/game2/BasicShip.java" />
+    <entry file="file://$PROJECT_DIR$/src/game2/utilities/JEasyFrame.java" />
+    <entry file="file://$PROJECT_DIR$/src/game2/utilities/TestVector2D.java" />
+    <entry file="file://$PROJECT_DIR$/src/game2/utilities/Vector2D.java" />
+    <entry file="file://$PROJECT_DIR$/src/game2/utilities/BasicKeys.java" />
+    <entry file="file://$PROJECT_DIR$/src/game2/utilities/Action.java" />
     <entry file="file://$PROJECT_DIR$/src/utilities/TestVector2D.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
+        <state relative-caret-position="3536">
           <caret line="216" selection-start-line="216" selection-end-line="216" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -617,92 +521,118 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utilities/HelloKey.java">
+    <entry file="file://$PROJECT_DIR$/src/game2/utilities/BasicController.java" />
+    <entry file="file://$PROJECT_DIR$/src/game2/Constants.java" />
+    <entry file="file://$PROJECT_DIR$/src/utilities/JEasyFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#371#372#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utilities/Action.java">
+    <entry file="file://$PROJECT_DIR$/src/game2/BasicView.java" />
+    <entry file="file://$PROJECT_DIR$/src/utilities/Keys.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="41" lean-forward="true" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+        <state relative-caret-position="153">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/game1/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utilities/BasicController.java">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_1703785_Assignment_2.zip/BrickBreakerPackageFiles/Game/GamePanel.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_1703785_Assignment_2.zip/BrickBreakerPackageFiles/Game/MainDisplay.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_1703785_Assignment_2.zip/BrickBreakerPackageFiles/GameObjects/Brick.java" />
+    <entry file="file://$PROJECT_DIR$/src/utilities/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/game1/BasicGame.java">
+    <entry file="file://$PROJECT_DIR$/src/utilities/Action.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        <state relative-caret-position="51">
+          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utilities/BasicController.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Brick.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/GamePanel.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/MainDisplay.java" />
+    <entry file="file://$PROJECT_DIR$/src/game1/Bullet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game1/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game1/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game1/GameObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game1/Asteroid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="613">
+          <caret line="72" column="22" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utilities/Vector2D.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        <state relative-caret-position="1292">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/game1/BasicAsteroid.java">
+    <entry file="file://$PROJECT_DIR$/src/game1/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+        <state relative-caret-position="26">
+          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utilities/BasicKeys.java">
+    <entry file="file://$PROJECT_DIR$/src/game1/Ship.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="45" column="11" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
+        <state relative-caret-position="289">
+          <caret line="81" column="28" lean-forward="true" selection-start-line="81" selection-start-column="28" selection-end-line="81" selection-end-column="28" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/game1/BasicView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/game1/BasicShip.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2137#2138#0" expanded="true" />
+            <element signature="e#2172#2173#0" expanded="true" />
+            <element signature="e#2198#2199#0" expanded="true" />
+            <element signature="e#2225#2226#0" expanded="true" />
+            <element signature="e#2475#2476#0" expanded="true" />
+            <element signature="e#2505#2506#0" expanded="true" />
           </folding>
         </state>
       </provider>
