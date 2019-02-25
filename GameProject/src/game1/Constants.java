@@ -1,6 +1,8 @@
 package game1;
 
 
+import utilities.Sprite;
+
 import java.awt.*;
 
 public class Constants {
@@ -10,4 +12,6 @@ public class Constants {
     public static final int DELAY = 20;
     public static final double DT = DELAY / 1000.0;
     public static final Color BG_COLOR = Color.BLACK;
+    public static Image ASTEROID = Sprite.ASTEROID;
+    public static Image MILKYWAY = Sprite.MILKYWAY;
 }

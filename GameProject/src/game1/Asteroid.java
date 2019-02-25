@@ -4,6 +4,7 @@ package game1;
 import utilities.Vector2D;
 
 import java.awt.*;
+import java.awt.geom.AffineTransform;
 import java.util.ArrayList;
 
 import static game1.Constants.FRAME_HEIGHT;
@@ -14,11 +15,21 @@ public class Asteroid extends GameObject{
     public static final int MAX_SPEED = 100;
     public int size;
     public ArrayList<GameObject> asteroids = null;
+    private Image asteroidImage = Constants.ASTEROID;
+    AffineTransform asteroidImageTransformation;
 
     public Asteroid(double x, double y, double vx, double vy, int size)
     {
         super(new Vector2D(x,y),new Vector2D(vx,vy),RADIUS);
         this.size = size;
+        double imWidth = asteroidImage.getWidth(null);
+        double imHeight = asteroidImage.getHeight(null);
+//        double stretchx = (imWidth > Constants.FRAME_WIDTH? 1 :
+//                Constants.FRAME_WIDTH/imWidth);
+//        double stretchy = (imHeight > Constants.FRAME_HEIGHT? 1 :
+//                Constants.FRAME_HEIGHT/imHeight);
+//        asteroidImageTransformation = new AffineTransform();
+//        asteroidImageTransformation.scale(stretchx, stretchy);
     }
 
     public void spawnAsteroids(){
@@ -38,7 +49,6 @@ public class Asteroid extends GameObject{
             asteroids.add(mediumAsteroid2);
         }
         else if(this.size == 1){
-            System.out.println("Size1 " + size);
             Asteroid smallAsteroid1 = new Asteroid(this.position.x + 5, this.position.y + 5,
                     (Math.random() - 0.5) *2*(MAX_SPEED + 1),
                     (Math.random() - 0.5) *2*(MAX_SPEED + 1),
@@ -79,13 +89,17 @@ public class Asteroid extends GameObject{
     public void draw(Graphics2D g){
         g.setColor(Color.red);
         if(size == 3){
-            g.fillOval((int) this.position.x - this.RADIUS, (int) this.position.y - this.RADIUS, 4* this.RADIUS, 4*this.RADIUS);
+
+           g.drawImage(asteroidImage,(int) this.position.x - this.RADIUS, (int) this.position.y - this.RADIUS, 4* this.RADIUS, 4*this.RADIUS,null);
+            //g.fillOval((int) this.position.x - this.RADIUS, (int) this.position.y - this.RADIUS, 4* this.RADIUS, 4*this.RADIUS);
         }
         else if(size == 2){
-            g.fillOval((int) this.position.x - this.RADIUS, (int) this.position.y - this.RADIUS, 3* this.RADIUS, 3*this.RADIUS);
+            g.drawImage(asteroidImage,(int) this.position.x - this.RADIUS, (int) this.position.y - this.RADIUS, 3* this.RADIUS, 3*this.RADIUS,null);
+            //g.fillOval((int) this.position.x - this.RADIUS, (int) this.position.y - this.RADIUS, 3* this.RADIUS, 3*this.RADIUS);
         }
         else if(size == 1){
-            g.fillOval((int) this.position.x - this.RADIUS, (int) this.position.y - this.RADIUS, 2*this.RADIUS, 2*this.RADIUS);
+            g.drawImage(asteroidImage,(int) this.position.x - this.RADIUS, (int) this.position.y - this.RADIUS, 3* this.RADIUS, 3*this.RADIUS,null);
+            //g.fillOval((int) this.position.x - this.RADIUS, (int) this.position.y - this.RADIUS, 2*this.RADIUS, 2*this.RADIUS);
 
         }
     }

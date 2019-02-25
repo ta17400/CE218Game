@@ -1,5 +1,7 @@
 package utilities;
 
+import game1.Game;
+
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 
@@ -19,8 +21,12 @@ public class Keys extends KeyAdapter implements Controller {
         int key = e.getKeyCode();
 
         switch (key) {
+//            case KeyEvent.VK_ESCAPE:
+//                Game.endGame = true;
+//                break;
             case KeyEvent.VK_UP:
                 action.thrust = 1;
+                SoundManager.startThrust();
                 break;
             case KeyEvent.VK_LEFT:
                 action.turn = -1;
@@ -40,6 +46,7 @@ public class Keys extends KeyAdapter implements Controller {
         switch (key) {
             case KeyEvent.VK_UP:
                 action.thrust = 0;
+                SoundManager.stopThrust();
                 break;
             case KeyEvent.VK_LEFT:
                 action.turn = 0;

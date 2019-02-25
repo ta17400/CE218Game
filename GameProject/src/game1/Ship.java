@@ -2,6 +2,7 @@ package game1;
 
 import utilities.Action;
 import utilities.Controller;
+import utilities.SoundManager;
 import utilities.Vector2D;
 
 import java.awt.*;
@@ -74,6 +75,7 @@ public class Ship extends GameObject {
 
     private void mkBullet(){
         bullet = new Bullet(new Vector2D(position),new Vector2D(velocity),RADIUS);
+        SoundManager.fire();
         bullet.position.add((direction.x*25),(direction.y*25));
         bullet.velocity.addScaled(direction,MAG_ACC);
     }
@@ -99,6 +101,7 @@ public class Ship extends GameObject {
             this.life -= 1;
             this.dead = false;
             reset();
+            SoundManager.play(SoundManager.bangLarge);
 
         }
         else{

@@ -1,7 +1,6 @@
 package game1;
 
-import utilities.Keys;
-import utilities.JEasyFrame;
+import utilities.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -64,6 +63,7 @@ public class Game {
     }
 
     public static void main(String[] args) throws Exception {
+        new Sprite();
         Game game = new Game();
         View view = new View(game);
         new JEasyFrame(view, "Basic Game").addKeyListener(ctrl);
@@ -71,6 +71,7 @@ public class Game {
             if(!game.endGame) {
                 game.update();
                 view.repaint();
+                //SoundManager.BGM();
                 Thread.sleep(DELAY);
             }
             else{
@@ -95,12 +96,18 @@ public class Game {
                 if(!ship.dead){
                     incScore(gameObject);
                 }
-                //If shit not ded{call inc score, check to add new lives}
                 if (gameObject instanceof Asteroid) {
-
                     Asteroid asteroid = (Asteroid) gameObject;
+                    if(asteroid.size == 3){
+                        SoundManager.largeAsteroids();
+                    }
+                    else if(asteroid.size == 2){
+                        SoundManager.mediumAteroids();
+                    }
+                    else{
+                        SoundManager.smallAsteroids();
+                    }
                     if (asteroid.asteroids != null) {
-                        //System.out.println("AST" + asteroid.asteroids.toString());
                         alive.addAll(asteroid.asteroids);
                         asteroid.asteroids = null;
                     }
